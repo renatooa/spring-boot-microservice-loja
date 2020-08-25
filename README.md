@@ -12,6 +12,6 @@ Requisições da Loja ao Fornecedor
 
 ### Pilha tecnológica
 Projeto elaborado utilizando Spring Boot versão 2.3.3, utilizando a pilha tecnológica apresentada a baixo:
-- __Eureka Cliente__ – Registro do Microservice no o [servidor de descobriment](https://github.com/renatooa/spring-boot-microservice-eureka-server)
+- __Eureka Cliente__ – Responsável pelo registro do Microservice no [servidor de descobrimento](https://github.com/renatooa/spring-boot-microservice-eureka-server)
 - __Openfeign__ - Client Http Rest compatível com balanceamento de carga no lado do cliente
 - __Sleuth__ - Prove mecanismos de rastreabilidade de Log Trace Distribuído.

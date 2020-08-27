@@ -1,21 +1,19 @@
-package br.com.renato.loja.model;
+package br.com.renato.loja.model.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Compra {
 
-	private Long id;
-	
+	@Id
 	private Long pedidoId;
-	
+
 	private Integer tempoDePreparo;
-	
+
 	private String enderecoDestino;
 
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
+	public Compra() {
 	}
 
 	public Long getPedidoId() {
